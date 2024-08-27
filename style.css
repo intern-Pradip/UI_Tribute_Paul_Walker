@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+strong{
+    font-weight: 700;
+}
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+    background-color: rgb(58, 39, 39);
+}
+
+.heading-logo {
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.heading-detail {
+    font-weight: 400;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 12px;
+}
+
+.list a {
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.list a:hover {
+    text-decoration: underline;
+}
+
+.section-about {
+    background-color: #5766b8;
+    padding:0 15%;
+}
+
+.section-about h1 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.about-heading-tag span {
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.about-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-about h1 {
+    padding: 10px 0px;
+}
+
+.about-img {
+    width: 280px;
+    height: auto;
+    outline: 3px solid white;
+}
+
+.about-img-tag {
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.section-about p {
+    padding: 0 0 30px 30px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.7;
+    word-spacing: 1.4;
+}
